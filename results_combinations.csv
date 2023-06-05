@@ -1,0 +1,49 @@
+year,type,rmse,algorithm,best_params
+2016,APARTMENT,50539.07574179784,random-forest,{'n_estimators': 1500}
+2016,APARTMENT,55853.9119412615,gb,"{'learning_rate': 0.001, 'max_depth': 11, 'n_estimators': 300}"
+2016,APARTMENT,60381.59300977337,mlp,"{'activation': 'tanh', 'alpha': 0.5, 'hidden_layer_sizes': (60, 120, 60, 1), 'learning_rate': 'constant', 'solver': 'sgd'}"
+2016,MAISONETTE,34387.29103600102,random-forest,{'n_estimators': 1000}
+2016,MAISONETTE,32362.67963153725,gb,"{'learning_rate': 0.001, 'max_depth': 5, 'n_estimators': 100}"
+2016,MAISONETTE,32660.570836789615,mlp,"{'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (60, 30, 1), 'learning_rate': 'constant', 'solver': 'sgd'}"
+2016,HOUSE,68279.17667031445,random-forest,{'n_estimators': 1000}
+2016,HOUSE,63894.037446819886,gb,"{'learning_rate': 0.001, 'max_depth': 11, 'n_estimators': 300}"
+2016,HOUSE,99715.05901975893,mlp,"{'activation': 'tanh', 'alpha': 0.001, 'hidden_layer_sizes': (60, 120, 60, 1), 'learning_rate': 'adaptive', 'solver': 'sgd'}"
+2014,MAISONETTE,26314.394393376773,random-forest,{'n_estimators': 100}
+2014,MAISONETTE,27564.139686119495,gb,"{'learning_rate': 0.0001, 'max_depth': 11, 'n_estimators': 50}"
+2014,MAISONETTE,27971.72845902895,mlp,"{'activation': 'tanh', 'alpha': 0.5, 'hidden_layer_sizes': (60, 40, 1), 'learning_rate': 'adaptive', 'solver': 'sgd'}"
+2014,APARTMENT,27351.478484315157,random-forest,{'n_estimators': 1500}
+2014,APARTMENT,26901.88502855758,gb,"{'learning_rate': 0.001, 'max_depth': 3, 'n_estimators': 300}"
+2014,APARTMENT,26170.70918677531,mlp,"{'activation': 'tanh', 'alpha': 0.5, 'hidden_layer_sizes': (60, 30, 1), 'learning_rate': 'constant', 'solver': 'sgd'}"
+2012,APARTMENT,25596.450367866117,random-forest,{'n_estimators': 100}
+2012,APARTMENT,24955.513000113544,gb,"{'learning_rate': 0.001, 'max_depth': 9, 'n_estimators': 100}"
+2012,APARTMENT,25202.31492565763,mlp,"{'activation': 'tanh', 'alpha': 0.001, 'hidden_layer_sizes': (60, 40, 1), 'learning_rate': 'adaptive', 'solver': 'sgd'}"
+2012,HOUSE,62852.031533759095,random-forest,{'n_estimators': 100}
+2012,HOUSE,74976.48267136604,gb,"{'learning_rate': 0.001, 'max_depth': 9, 'n_estimators': 300}"
+2012,HOUSE,82576.29126705954,mlp,"{'activation': 'tanh', 'alpha': 0.5, 'hidden_layer_sizes': (60, 120, 60, 1), 'learning_rate': 'constant', 'solver': 'sgd'}"
+2012,MAISONETTE,45862.64425628899,random-forest,{'n_estimators': 100}
+2012,MAISONETTE,43873.00990307562,gb,"{'learning_rate': 0.001, 'max_depth': 7, 'n_estimators': 300}"
+2012,MAISONETTE,46013.20160601792,mlp,"{'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (60, 30, 1), 'learning_rate': 'adaptive', 'solver': 'sgd'}"
+2011,APARTMENT,34231.23869992796,random-forest,{'n_estimators': 1500}
+2011,APARTMENT,29401.841526456083,gb,"{'learning_rate': 0.001, 'max_depth': 11, 'n_estimators': 50}"
+2011,APARTMENT,30306.260246577087,mlp,"{'activation': 'tanh', 'alpha': 0.001, 'hidden_layer_sizes': (60, 40, 1), 'learning_rate': 'adaptive', 'solver': 'sgd'}"
+2011,MAISONETTE,40235.2002310535,random-forest,{'n_estimators': 1000}
+2011,MAISONETTE,43986.184521657466,gb,"{'learning_rate': 0.001, 'max_depth': 11, 'n_estimators': 100}"
+2011,MAISONETTE,47191.4449764592,mlp,"{'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (60, 30, 1), 'learning_rate': 'adaptive', 'solver': 'sgd'}"
+2011,HOUSE,63614.161736797796,random-forest,{'n_estimators': 1000}
+2011,HOUSE,81354.984668334,gb,"{'learning_rate': 0.001, 'max_depth': 11, 'n_estimators': 300}"
+2011,HOUSE,89484.6826144469,mlp,"{'activation': 'tanh', 'alpha': 0.5, 'hidden_layer_sizes': (60, 40, 1), 'learning_rate': 'constant', 'solver': 'sgd'}"
+2015,APARTMENT,33153.700651895575,random-forest,{'n_estimators': 1000}
+2015,APARTMENT,31045.312206942745,gb,"{'learning_rate': 0.0001, 'max_depth': 7, 'n_estimators': 50}"
+2015,APARTMENT,30947.224521382912,mlp,"{'activation': 'tanh', 'alpha': 0.5, 'hidden_layer_sizes': (60, 40, 1), 'learning_rate': 'constant', 'solver': 'sgd'}"
+2015,HOUSE,127769.47453924753,random-forest,{'n_estimators': 1500}
+2015,HOUSE,132468.3782402344,gb,"{'learning_rate': 0.001, 'max_depth': 11, 'n_estimators': 300}"
+2015,HOUSE,137888.49733805997,mlp,"{'activation': 'tanh', 'alpha': 0.5, 'hidden_layer_sizes': (60, 120, 60, 1), 'learning_rate': 'adaptive', 'solver': 'sgd'}"
+2013,APARTMENT,19422.487233131727,random-forest,{'n_estimators': 1000}
+2013,APARTMENT,21818.13823820226,gb,"{'learning_rate': 0.001, 'max_depth': 5, 'n_estimators': 200}"
+2013,APARTMENT,22365.04455179989,mlp,"{'activation': 'tanh', 'alpha': 0.001, 'hidden_layer_sizes': (60, 120, 60, 1), 'learning_rate': 'adaptive', 'solver': 'sgd'}"
+2013,HOUSE,60631.779383169975,random-forest,{'n_estimators': 1000}
+2013,HOUSE,58581.12910010418,gb,"{'learning_rate': 0.001, 'max_depth': 3, 'n_estimators': 300}"
+2013,HOUSE,63195.02630217259,mlp,"{'activation': 'tanh', 'alpha': 0.5, 'hidden_layer_sizes': (60, 120, 60, 1), 'learning_rate': 'adaptive', 'solver': 'sgd'}"
+2021,APARTMENT,129068.8734435576,random-forest,{'n_estimators': 100}
+2021,APARTMENT,123154.1564436536,gb,"{'learning_rate': 0.001, 'max_depth': 9, 'n_estimators': 300}"
+2021,APARTMENT,124412.38370613543,mlp,"{'activation': 'tanh', 'alpha': 0.5, 'hidden_layer_sizes': (60, 30, 1), 'learning_rate': 'constant', 'solver': 'sgd'}"
